@@ -1,0 +1,43 @@
+{
+  "name": "pigexpensetracker",
+  "homepage": "https://jorgekean.github.io/pisologs",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.21.4",
+    "@chakra-ui/icons": "^2.0.19",
+    "@chakra-ui/react": "^2.7.0",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "bootstrap": "^5.2.3",
+    "dexie": "^3.2.3",
+    "framer-motion": "^10.12.16",
+    "puppeteer": "^20.1.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.9.0",
+    "react-router-dom": "^6.11.2",
+    "react-speech-recognition": "^3.10.0",
+    "regenerator-runtime": "^0.13.11",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@types/react-speech-recognition": "^3.9.2",
+    "@types/uuid": "^9.0.1",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "gh-pages": "^5.0.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0"
+  }
+}
